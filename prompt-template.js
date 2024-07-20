@@ -1,7 +1,6 @@
 import { ChatOpenAI } from "@langchain/openai"
 import * as dotenv from "dotenv";
 import {ChatPromptTemplate} from '@langchain/core/prompts'
-
 dotenv.config();
 //create model
 const model = new ChatOpenAI({

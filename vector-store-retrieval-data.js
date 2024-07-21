@@ -65,7 +65,6 @@ const retrievalChain = await createRetrievalChain({
 const response = await retrievalChain.invoke({
     // input: "What is the concept of LCEL?",
     input: "What is the LCEL?",
-    context: splitDocs
 })
 
 console.log(response);
